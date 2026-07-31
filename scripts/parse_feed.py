@@ -1,5 +1,4 @@
 import requests
-import json
 from xml.etree import ElementTree as ET
 
 URL = "https://maxipublica-inventory-feeds.s3.amazonaws.com/campaigns/xml/group/vehicle_feed_group_e1490ae1e92f.xml"
@@ -11,23 +10,23 @@ DEALERS = {
 resp = requests.get(URL, timeout=30)
 root = ET.fromstring(resp.content)
 
-autos = []
-for vehicle in root.iter("vehicle"):
-    dealer = vehicle.findtext("dealer_id", "")
-    if dealer in DEALERS:
-        autos.append({
-            "dealer_id": dealer,
-            "id": vehicle.findtext("id"),
-            "make": vehicle.findtext("make"),
-            "model": vehicle.findtext("model"),
-            "year": vehicle.findtext("year"),
-            "price": vehicle.findtext("price"),
-            "mileage": vehicle.findtext("mileage"),
-            "vin": vehicle.findtext("vin"),
-            "image_url": vehicle.findtext("image_url"),
-        })
+# Crear nuevo XML con misma estructura raíz
+new_root = ET.Element("listings")
+title = ET.SubElement(new_root, "title")
+title.text = "Feed Seminuevos Plasencia - Lopez Mateos y Bugambilias"
 
-with open("inventario_plasencia.json", "w", encoding="utf-8") as f:
-    json.dump(autos, f, ensure_ascii=False, indent=2)
+count = 0
+for listing in root.findall("listing"):
+    dealer_id = listing.findtext("dealer_id", "")
+    if dealer_id in DEALERS:
+        new_root.append(listing)
+        count += 1
 
-print(f"{len(autos)} vehículos encontrados")
+# Escribir XML con declaración y encoding utf-8
+tree = ET.ElementTree(new_root)
+ET.indent(tree, space="  ")
+with open("inventario_plasencia.xml", "wb") as f:
+    f.write(b'<?xml version="1.0" encoding="utf-8"?>\n')
+    tree.write(f, encoding="utf-8", xml_declaration=False)
+
+print(f"{count} vehículos encontrados y guardados en inventario_plasencia.xml")

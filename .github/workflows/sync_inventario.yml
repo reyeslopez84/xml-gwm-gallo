@@ -25,6 +25,6 @@ jobs:
         run: |
           git config user.email "bot@github.com"
           git config user.name "GitHub Actions"
-          git add inventario_plasencia.json
+          git add inventario_plasencia.xml
           git diff --cached --quiet || git commit -m "Update inventario $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
