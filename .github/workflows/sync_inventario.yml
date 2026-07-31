@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -21,14 +23,17 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
+      - name: Pull últimos cambios
+        run: git pull --rebase origin main
+
       - name: Ejecutar script
         run: python scripts/parse_feed.py
 
-      - name: Commit si hubo cambios
+      - name: Commit y push si hubo cambios
         run: |
           git config user.email "bot@github.com"
           git config user.name "GitHub Actions"
           git add inventario_plasencia.xml
-          git diff --cached --quiet || git commit -m "Update inventario $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git diff --cached --quiet && echo "Sin cambios" && exit 0
+          git commit -m "Update inventario $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin main
