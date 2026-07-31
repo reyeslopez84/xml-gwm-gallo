@@ -30,4 +30,5 @@ jobs:
           git config user.name "GitHub Actions"
           git add inventario_plasencia.xml
           git diff --cached --quiet || git commit -m "Update inventario $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
