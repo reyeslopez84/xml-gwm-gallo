@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *'  # cada hora
   workflow_dispatch:       # también manual desde GitHub
 
+concurrency:
+  group: sync-inventario
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -36,4 +40,4 @@ jobs:
           git add inventario_plasencia.xml
           git diff --cached --quiet && echo "Sin cambios" && exit 0
           git commit -m "Update inventario $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push origin main
+          git push --force-with-lease origin main
