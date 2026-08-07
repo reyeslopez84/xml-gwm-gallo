@@ -2,9 +2,11 @@ import requests
 from xml.etree import ElementTree as ET
 
 URL = "https://maxipublica-inventory-feeds.s3.amazonaws.com/campaigns/xml/group/vehicle_feed_group_e1490ae1e92f.xml"
-DEALERS = {
-    "3852-Seminuevos_Plasencia_Lopez_Mateos",
-    "4054-Seminuevos_Plasencia_Bugambilias"
+VINS = {
+    "3C4NJCCB4MT596742",
+    "LGWEFUA52RH926427",
+    "VSSBE75F1KR032730",
+    "LGWEEUA58RK612111"
 }
 
 resp = requests.get(URL, timeout=30)
@@ -13,12 +15,12 @@ root = ET.fromstring(resp.content)
 # Crear nuevo XML con misma estructura raíz
 new_root = ET.Element("listings")
 title = ET.SubElement(new_root, "title")
-title.text = "Feed Seminuevos Plasencia - Lopez Mateos y Bugambilias"
+title.text = "Feed Seminuevos Plasencia - VINs seleccionados"
 
 count = 0
 for listing in root.findall("listing"):
-    dealer_id = listing.findtext("dealer_id", "")
-    if dealer_id in DEALERS:
+    vin = listing.findtext("vin", "").strip()
+    if vin in VINS:
         new_root.append(listing)
         count += 1
 
