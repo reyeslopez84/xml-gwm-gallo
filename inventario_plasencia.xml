@@ -2,51 +2,6 @@
 <listings>
   <title>Feed Seminuevos Plasencia - VINs seleccionados</title>
   <listing>
-    <vehicle_id>21130610</vehicle_id>
-    <title>Chevrolet Aveo 2023</title>
-    <description>Chevrolet Aveo 2023 4p LS L4/1.5 Aut.Tipo de precio: NegociableCRÉDITO DISPONIBLE*Enganche desde $57,250 y hasta 60 mensualidades de $4,658.Transmisión: AutomáticaDirección: AsistidaVestidura: TelaCombustible o energía: GasolinaSegmento: SedánCondición: UsadoColor exterior: BlancoColor interior: NegroAire acondicionado: SiTracción: DelanteraBlindaje: NoPuertas: 4Pasajeros: 5Velocidades: 4Cilindros: 4Válvulas: 4Potencia en HP: 107Torque máximo libras/pie: 104Capacidad del tanque (l): 39Consumo en ciudad (Km/l): 16.6Consumo en carretera (Km/l): 24.1Consumo en combinado (Km/l): 19.3Diámetro de rines (pulgadas): 14Largo del vehículo (mm): 4300Ancho del vehículo (mm): 1735Alto del vehículo (mm): 1502Peso (Kg): 1086EQUIPAMIENTO:- Audio: bocinas, entrada auxiliar, puerto usb.- Confort: aire acondicionado, altura del volante ajustable, apertura de cajuela y tapa combustible, desempañador trasero, espejo de vanidad.- Documentos: acepto vehículos a cuenta.- Eléctrico: asiento conductor, cierre centralizado, computadora de viaje, elevadores de cristal, espejos laterales.- Gadgets: bluetooth.- Seguridad: bolsa de aire conductor, cinturones de seguridad delanteros, cinturones de seguridad traseros, frenos abs, frenos de disco traseros.*La imagen de la unidad es solamente ilustrativa y puede variar de acuerdo al equipamiento por la línea del vehículo. El precio de lista es igual de contado o financiado expresado en moneda nacional. Cotización válida en solo esta versión. Sujeto a aprobación de crédito. Para más información de crédito u otra alternativa consultar al ejecutivo de ventas. Este vehículo cumple con los lineamientos en materia de control de emisiones contaminantes; de protección al medio ambiente; de seguridad para los consumidores de condiciones físico-mecánicas y de registro vehicular que autoricen la circulación del mismo, conforme lo disponen las leyes y demás ordenamientos, tanto locales como federales. MP21130610</description>
-    <url>https://www.seminuevosplasencia.com/inventory/detail_mp21130610</url>
-    <make>Chevrolet</make>
-    <image>
-      <url>https://pictures.maxipublica.com/uploads/2026/8/3852/21130610/chevrolet_aveo_2023_5e5552b8a72bf_a.jpeg</url>
-    </image>
-    <model>Aveo</model>
-    <year>2023</year>
-    <mileage>
-      <unit>KM</unit>
-      <value>73000</value>
-    </mileage>
-    <drivetrain>FWD</drivetrain>
-    <vin>LSGHD52H2PD050624</vin>
-    <body_style>SEDAN</body_style>
-    <fuel_type>GASOLINE</fuel_type>
-    <transmission>AUTOMATIC</transmission>
-    <condition>OTHER</condition>
-    <price>229000 MXN</price>
-    <address format="simple">
-      <component name="addr1">Av López Mateos Sur</component>
-      <component name="addr2" />
-      <component name="addr3" />
-      <component name="unit_number" />
-      <component name="city">Zapopan</component>
-      <component name="city_id" />
-      <component name="region">Jalisco</component>
-      <component name="province">Jalisco</component>
-      <component name="postal_code">45050</component>
-      <component name="country">MX</component>
-    </address>
-    <latitude>20.643452713315327</latitude>
-    <longitude>-103.4083279967308</longitude>
-    <exterior_color>Blanco</exterior_color>
-    <sale_price />
-    <availability>available</availability>
-    <date_first_on_lot />
-    <state_of_vehicle>USED</state_of_vehicle>
-    <dealer_id>3852-Seminuevos_Plasencia_Lopez_Mateos</dealer_id>
-    <dealer_phone />
-    <phone_number>3312703429</phone_number>
-  </listing>
-  <listing>
     <vehicle_id>21077261</vehicle_id>
     <title>Chevrolet Silverado 2018</title>
     <description>Chevrolet Silverado 2018 2p LS Cab Regular V8/5.3 Aut 4x4. Tipo de precio: NegociableTransmisión: AutomáticaDirección: AsistidaVestidura: TelaCombustible o energía: GasolinaSegmento: Pick UpColor exterior: PlataColor interior: NegroCon aire acondicionado automáticoTracción: 4x4Holograma ambiental: 1Puertas: 2Pasajeros: 3Velocidades: 6Cilindros: 8Válvulas: 2Potencia en HP: 355Torque máximo libras/pie: 383Capacidad del tanque (l): 98Consumo en ciudad (Km/l): 8.3Consumo en carretera (Km/l): 13.2Consumo en combinado (Km/l): 10Diámetro de rines (pulgadas): 17Largo del vehículo (mm): 5,221Ancho del vehículo (mm): 2,032Alto del vehículo (mm): 1,879EQUIPAMIENTO:- Audio: bocinas, entrada auxiliar, puerto usb.- Confort: aire acondicionado, altura del volante ajustable, apertura de cajuela y tapa combustible, apertura remota de cajuela, apertura remota de garage, control automático de velocidad, espejo de vanidad, sensor de estacionamiento, sistema de control por voz para funciones, volante de posiciones.- Documentos: acepto vehículos a cuenta.- Eléctrico: apagado de cilindros, asiento conductor, computadora de viaje, elevadores de cristal.- Extras: rines de aluminio y/o aleación.- Gadgets: bluetooth, sistema de navegación gps.- Seguridad: bolsa de aire acompañante, bolsa de aire conductor, bolsa de aire laterales, bolsas de aire cortina, cinturones de seguridad delanteros, control de estabilidad, control de tracción, frenos abs, frenos de disco traseros. MP21077261</description>
@@ -109,7 +64,7 @@
     <fuel_type>GASOLINE</fuel_type>
     <transmission>AUTOMATIC</transmission>
     <condition>OTHER</condition>
-    <price>419000 MXN</price>
+    <price>389000 MXN</price>
     <address format="simple">
       <component name="addr1">Av López Mateos Sur</component>
       <component name="addr2" />
@@ -125,6 +80,51 @@
     <latitude>20.643452713315327</latitude>
     <longitude>-103.4083279967308</longitude>
     <exterior_color>Plata</exterior_color>
+    <sale_price />
+    <availability>available</availability>
+    <date_first_on_lot />
+    <state_of_vehicle>USED</state_of_vehicle>
+    <dealer_id>3852-Seminuevos_Plasencia_Lopez_Mateos</dealer_id>
+    <dealer_phone />
+    <phone_number>3312703429</phone_number>
+  </listing>
+  <listing>
+    <vehicle_id>21130610</vehicle_id>
+    <title>Chevrolet Aveo 2023</title>
+    <description>Chevrolet Aveo 2023 4p LS L4/1.5 Aut.Tipo de precio: NegociableCRÉDITO DISPONIBLE*Enganche desde $57,250 y hasta 60 mensualidades de $4,658.Transmisión: AutomáticaDirección: AsistidaVestidura: TelaCombustible o energía: GasolinaSegmento: SedánCondición: UsadoColor exterior: BlancoColor interior: NegroAire acondicionado: SiTracción: DelanteraBlindaje: NoPuertas: 4Pasajeros: 5Velocidades: 4Cilindros: 4Válvulas: 4Potencia en HP: 107Torque máximo libras/pie: 104Capacidad del tanque (l): 39Consumo en ciudad (Km/l): 16.6Consumo en carretera (Km/l): 24.1Consumo en combinado (Km/l): 19.3Diámetro de rines (pulgadas): 14Largo del vehículo (mm): 4300Ancho del vehículo (mm): 1735Alto del vehículo (mm): 1502Peso (Kg): 1086EQUIPAMIENTO:- Audio: bocinas, entrada auxiliar, puerto usb.- Confort: aire acondicionado, altura del volante ajustable, apertura de cajuela y tapa combustible, desempañador trasero, espejo de vanidad.- Documentos: acepto vehículos a cuenta.- Eléctrico: asiento conductor, cierre centralizado, computadora de viaje, elevadores de cristal, espejos laterales.- Gadgets: bluetooth.- Seguridad: bolsa de aire conductor, cinturones de seguridad delanteros, cinturones de seguridad traseros, frenos abs, frenos de disco traseros.*La imagen de la unidad es solamente ilustrativa y puede variar de acuerdo al equipamiento por la línea del vehículo. El precio de lista es igual de contado o financiado expresado en moneda nacional. Cotización válida en solo esta versión. Sujeto a aprobación de crédito. Para más información de crédito u otra alternativa consultar al ejecutivo de ventas. Este vehículo cumple con los lineamientos en materia de control de emisiones contaminantes; de protección al medio ambiente; de seguridad para los consumidores de condiciones físico-mecánicas y de registro vehicular que autoricen la circulación del mismo, conforme lo disponen las leyes y demás ordenamientos, tanto locales como federales. MP21130610</description>
+    <url>https://www.seminuevosplasencia.com/inventory/detail_mp21130610</url>
+    <make>Chevrolet</make>
+    <image>
+      <url>https://pictures.maxipublica.com/uploads/2026/8/3852/21130610/chevrolet_aveo_2023_5e5552b8a72bf_a.jpeg</url>
+    </image>
+    <model>Aveo</model>
+    <year>2023</year>
+    <mileage>
+      <unit>KM</unit>
+      <value>73000</value>
+    </mileage>
+    <drivetrain>FWD</drivetrain>
+    <vin>LSGHD52H2PD050624</vin>
+    <body_style>SEDAN</body_style>
+    <fuel_type>GASOLINE</fuel_type>
+    <transmission>AUTOMATIC</transmission>
+    <condition>OTHER</condition>
+    <price>229000 MXN</price>
+    <address format="simple">
+      <component name="addr1">Av López Mateos Sur</component>
+      <component name="addr2" />
+      <component name="addr3" />
+      <component name="unit_number" />
+      <component name="city">Zapopan</component>
+      <component name="city_id" />
+      <component name="region">Jalisco</component>
+      <component name="province">Jalisco</component>
+      <component name="postal_code">45050</component>
+      <component name="country">MX</component>
+    </address>
+    <latitude>20.643452713315327</latitude>
+    <longitude>-103.4083279967308</longitude>
+    <exterior_color>Blanco</exterior_color>
     <sale_price />
     <availability>available</availability>
     <date_first_on_lot />
