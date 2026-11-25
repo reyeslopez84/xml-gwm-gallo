@@ -45,6 +45,7 @@
     <dealer_id>4054-Seminuevos_Plasencia_Bugambilias</dealer_id>
     <dealer_phone>+523315328636</dealer_phone>
     <phone_number>3315328636</phone_number>
+    <custom_label_0>OFERTA</custom_label_0>
   </listing>
   <listing>
     <vehicle_id>21127853</vehicle_id>
@@ -135,6 +136,7 @@
     <dealer_id>4054-Seminuevos_Plasencia_Bugambilias</dealer_id>
     <dealer_phone>+523315328636</dealer_phone>
     <phone_number>3315328636</phone_number>
+    <custom_label_0>OFERTA</custom_label_0>
   </listing>
   <listing>
     <vehicle_id>21095224</vehicle_id>
@@ -225,5 +227,6 @@
     <dealer_id>4054-Seminuevos_Plasencia_Bugambilias</dealer_id>
     <dealer_phone>+523315328636</dealer_phone>
     <phone_number>3315328636</phone_number>
+    <custom_label_0>OFERTA</custom_label_0>
   </listing>
 </listings>
